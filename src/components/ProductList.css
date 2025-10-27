@@ -1,0 +1,35 @@
+.InputWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.FormWrapper {
+    display: flex;
+    flex-direction: row;
+}
+.Header{
+    margin-bottom: 10px;
+}
+
+.Input{
+    border: 1px solid lightgray;
+    height:20px;
+    border-radius: 4px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.Button{
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(56, 192, 255);
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.Warn{
+    color: red;
+    font-size: 13px;
+}
