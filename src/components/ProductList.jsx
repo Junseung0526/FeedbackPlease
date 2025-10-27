@@ -7,7 +7,7 @@ const ProductList = ({ onCreate, products, addToCart, deleteProduct }) => {
     const [content, setContent] = useState("");
     const [price, setPrice] = useState(0);
 
-    
+
     const inputRef = useRef();
 
     const onChangeContent = (e) => {

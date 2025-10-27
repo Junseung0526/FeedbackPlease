@@ -5,27 +5,27 @@ import { useState, useRef } from "react";
 function App() {
 
 
-  const mockProducts = [
-    {
-      id: 0,
-      price: 2000,
-      content: "새우깡",
-    },
-    {
-      id: 1,
-      price: 2500,
-      content: "포스틱",
-    },
-    {
-      id: 2,
-      price: 100,
-      content: "이효준",
-    },
-  ];
+  // const mockProducts = [
+  //   {
+  //     id: 0,
+  //     price: 2000,
+  //     content: "새우깡",
+  //   },
+  //   {
+  //     id: 1,
+  //     price: 2500,
+  //     content: "포스틱",
+  //   },
+  //   {
+  //     id: 2,
+  //     price: 100,
+  //     content: "이효준",
+  //   },
+  // ];
 
-  const [products, setProducts] = useState(mockProducts);
+  const [products, setProducts] = useState([]);
   const [cartItems, setCartItems] = useState([]);
-  const idRef = useRef(3);
+  const idRef = useRef(0);
 
   const onCreate = (content, price) => {
     const newItem = {
